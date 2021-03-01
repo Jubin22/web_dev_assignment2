@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgrey;
+  margin:auto; 
+}
+
+dl > div {
+  background: #FFF;
+  padding: 24px 0 0 0;
+  width: 74vh;
+  margin:auto; 
+}
+#Heading{
+  border-bottom: 1px solid #989EA4;
+  border-top: 1px solid #717D85;
+  color: #F7F7F7;
+  background: #313131;
+  font: bold 25px Helvetica, Arial, sans-serif;
+  padding: 2px 0 0 12px;
+  position: sticky;
+  top: 0px;
+}
+
+dt {
+  background: #B8C1C8;
+  border-bottom: 1px solid #989EA4;
+  border-top: 1px solid #717D85;
+  color: #FFF;
+  font: bold 18px/21px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+}
+img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+dd {
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+  display: flex;
+}
+span{
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+
+}
+.Name{
+  flex-grow: 2;
+}
+.Number{
+  flex-grow: 2;
+}
+.icon{
+  flex-grow: 1;
+  border-radius: 50%;
+
+}
+.Alpha{
+  margin-right: 20px;
+}
+
+dd + dd {
+  border-top: 1px solid #CCC;
+}
